@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+.App-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.message {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  text-align: left;
+  
+}
+
+.Bot1 {
+  background-color: #e1f5fe;
+  text-align: left;
+  width: 70%;
+}
+
+.Bot2 {
+  background-color: #ffe0b2;
+  margin-left: auto;
+  width: 70%;
+}
+
+/* components/Sidebar.css */
+.sidebar {
+  background-color: #f0f0f0;
+  width: 25%;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+  text-align: left;
+}
+.sidebar form {
+  margin-top: 20px;
+}
+
+.sidebar label {
+  display: block;
+  margin: 5px 0;
+}
+
+.sidebar select {
+  margin-top: 5px;
+}
+
+.sidebar button {
+  padding: 1rem;
+  margin: 1rem;
+  margin-left:auto;
+  font-size: 0.9rem;
+}
+
+
+.message-sender {
+  font-weight: bold;
+}
+
+.message-content {
+  margin-top: 5px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  padding: 2px;
+  padding-left: 30px;
+  color: white;
+  text-align: left;
+}
+
+
+
+.chat-container {
+  display: flex;
+  justify-content: center;
+}
+
+.chat-panel {
+  border: 1px solid #ccc;
+  margin: 0 10px;
+  padding: 10px;
+  width: 35vw; /* Or whatever width you prefer */
+  height: 80vh; /* Adjust based on your needs */
+  overflow-y: auto;
+}
